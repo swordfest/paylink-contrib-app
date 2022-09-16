@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Profile from './components/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <div className='container mx-auto h-screen flex justify-center pt-12'>
+    <Profile/>
+    </div>
+    
   </React.StrictMode>
 );
 
